@@ -17,9 +17,10 @@ def hello():
 def intent():
     user_input = request.get_json()
     print(user_input['data'])
-    res = chatbot(user_input['data'])
+    res, tag = chatbot(user_input['data'])
     print(res)
-    return res
+    data = {"res": res, "tag": tag}
+    return json.dumps(data)
     #return "user input: {} \n assistance: {}".format(user_input['data'], res)
 
 @app.errorhandler(500)

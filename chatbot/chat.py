@@ -63,7 +63,7 @@ def chatbot(user_input):
     if proba.item() >= 0.60:
         for data in intent_file['data']:
             if prediction_tag == data["tagged_data"]:
-                return random.choice(data['bot_response'])
+                return random.choice(data['bot_response']), prediction_tag
                 #print("{}: {}".format(assistance,random.choice(data['bot_response'])))
 
     else:
