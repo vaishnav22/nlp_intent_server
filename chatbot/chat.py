@@ -52,6 +52,7 @@ def chatbot(user_input):
     _, predicted = torch.max(predicton,dim=1)
     # predict the tag using torch.max function
     prediction_tag = tags[predicted.item()]
+    print(prediction_tag)
 
     # probabilty = create a softmax layer to provide the probability or percentage
     probability = torch.softmax(predicton, dim=1)

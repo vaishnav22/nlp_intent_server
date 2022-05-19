@@ -108,6 +108,72 @@
           "standard delivery takes upto 2-4 days",
           "you should expect the delivery in next 3 days"
         ]
+      },
+      {
+        "tagged_data": "skills",
+        "user_input":[
+          "What are the skills",
+          "show me skills",
+          "techinical skills",
+          "soft skills",
+          "professional skills",
+          "what skills do you have",
+          "Show the abilities",
+          "abilites",
+          "tell skills about",
+          "Experties",
+          "Technical Experties",
+          "Technical Knowledge"
+        ],
+        "bot_response":[
+          "Here are the skills",
+          "The skills are so and so"
+        ]
+      },
+      {
+        "tagged_data":"Education",
+        "user_input": [
+          "Show me the education",
+          "what are the education of",
+          "tell me what education",
+          "education",
+          "details on education",
+          "Knowledge possesed",
+          "Education level",
+          "Education quallification",
+          "graduation",
+          "Degree of Education",
+          "Degree in graduation",
+          "What you are graduated",
+          "Graduated",
+          "What education and graduation"
+        ],
+        "bot_response":[
+          "Here are the education",
+          "The skills are so and so"
+        ]
+      },
+      {
+        "tagged_data": "Experience",
+        "user_input":[
+          "show me the experience",
+          "what are the experience",
+          "list the experience",
+          "Where have you worked before",
+          "professional history",
+          "work experience",
+          "Companies worked in",
+          "Where have you worked",
+          "Work experience",
+          "professional experience",
+          "what experience do you have",
+          "experience of user"
+        ],
+        "bot_response":[
+          "Here are the education",
+          "The skills are so and so"
+        ]
       }
+      
     ]
   }
