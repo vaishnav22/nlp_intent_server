@@ -1,0 +1,5 @@
+flask
+gunicorn
+itsdangerous
+torch
+Jinja2

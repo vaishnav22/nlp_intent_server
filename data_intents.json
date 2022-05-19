@@ -1,0 +1,113 @@
+{
+    "data": [
+      {
+        "tagged_data": "greeting",
+        "user_input": [
+          "Hi",
+          "hello there",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "Hiiii",
+          "Good morning",
+          "Good afternoon",
+          "afternoon",
+          "Evening",
+          "Good evening",
+          "Good afternoon",
+          "Hello",
+          "Hola"
+        ],
+        "bot_response": [
+          "Hey :-)",
+          "Hello",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "Hello, nice to see you"
+        ]
+      },
+      {
+        "tagged_data": "goodbye",
+        "user_input": [
+          "Have a nice day",
+          "Bye", 
+          "See you later", 
+          "bye", 
+          "lovely" ,
+          "thanks",
+          "Goodbye", 
+          "see you"],
+        "bot_response": [
+          "See you later",
+          "Have a nice day",
+          "You are welcome",
+          "Thanks for using our service!",
+          "see ya!",
+          "cheers see you later"
+        ]
+      },
+      {
+        "tagged_data": "thanks",
+        "user_input": [
+          "Thanks", 
+          "Thank you", 
+          "That's helpful", 
+          "Thank's a lot!"],
+        "bot_response": [
+          "Happy to help!", 
+          "Any time!", 
+          "My pleasure",
+          "you are welcome", 
+          "my pleasure", 
+          "Happy to help you any time", 
+          "Hope you had good time"]
+      },
+      {
+        "tagged_data":"services",
+        "user_input": [
+          "What service do you provide",
+          "can you tell me the services you provide",
+          "What do you have for me"
+        ],
+        "bot_response": [
+          "At the moment, we only provide home-delivery services",
+          "Only Home delivery.",
+          "Online services only at the moment",
+          "all the shops are closed due to covid-19, we do online services.",
+          "we deliver products to your location"
+        ]
+      },
+      {
+        "tagged_data": "payments",
+        "user_input": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?",
+          "Do you take cash?",
+          "is card payment accepted",
+          "Can I pay using cash"
+        ],
+        "bot_response": [
+          "We accept VISA, Mastercard",
+          "We accept most credit cards, and debit cards too. !",
+          "we accept apple pay, G-pay, and all other major cards",
+          "Card payment only, cash not accepted at the moment."
+        ]
+      },
+      {
+        "tagged_data": "delivery",
+        "user_input": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "bot_response": [
+          "standard delivery takes upto 2-4 days",
+          "you should expect the delivery in next 3 days"
+        ]
+      }
+    ]
+  }
