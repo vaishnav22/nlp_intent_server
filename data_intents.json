@@ -131,7 +131,7 @@
         ]
       },
       {
-        "tagged_data":"Education",
+        "tagged_data":"COLLEGE NAME",
         "user_input": [
           "Show me the education",
           "what are the education of",
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "tagged_data": "Experience",
+        "tagged_data": "COMPANIES WORKED AT",
         "user_input":[
           "show me the experience",
           "what are the experience",
@@ -167,13 +167,46 @@
           "Work experience",
           "professional experience",
           "what experience do you have",
-          "experience of user"
+          "experience of user",
+          "companies worked"
         ],
         "bot_response":[
-          "Here are the education",
-          "The skills are so and so"
+          "Here are the companies"
+        ]
+      },
+      {
+        "tagged_data": "DESIGNATION",
+        "user_input":[
+          "What is designation",
+          "how do i call you",
+          "What is the designation of user",
+          "What do you call",
+          "what is the title",
+          "How do I call you",
+          "Designation",
+          "title"
+        ],
+        "bot_response":[
+          "Here are the Designation",
+          "The designation are so and so"
+        ]
+      },
+      {
+        "tagged_data": "LOCATION",
+        "user_input": [
+          "Where do you live",
+          "where does the user live",
+          "location of the user",
+          "where do you live",
+          "Location",
+          "place of stay",
+          "current location"
+        ],
+        "bot_response":[
+          "Here is you location"
         ]
       }
+
       
     ]
   }
