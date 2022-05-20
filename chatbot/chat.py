@@ -58,13 +58,14 @@ def chatbot(user_input):
     probability = torch.softmax(predicton, dim=1)
     # predict proba
     proba = probability[0][predicted.item()]
+    print(proba)
 
     # if proba  > 60% perform the following task
-    if proba.item() >= 0.60:
+    if proba.item() >= 0.95:
         for data in intent_file['data']:
             if prediction_tag == data["tagged_data"]:
                 return random.choice(data['bot_response']), prediction_tag
                 #print("{}: {}".format(assistance,random.choice(data['bot_response'])))
 
     else:
-        return "{}: Can you repeat that again...".format(assistance)
+        return "no_tag", "other" 
